@@ -10,11 +10,12 @@ struct Node {
 
 
 void postorder(Node* root){
-	if(root==null){
+	if(root==NULL){
 		return;
 	}
 
 	postorder(root->lftPtr);
 	postorder(root->rghtPtr);
+	cout<<root->data<<" ";
 
 }
