@@ -4,7 +4,7 @@ struct Node {
 
 	Node(int val){
 		data = val;
-		lftPtr=rghtPrt=NULL;
+		lftPtr=rghtPtr=NULL;
 	}
 }
 
