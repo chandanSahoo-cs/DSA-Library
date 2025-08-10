@@ -1,18 +1,18 @@
 struct Node {
 	int data;
-	Node* lftPtr, rghtPrt;
+	Node* lftPtr, rghtPtr;
 
 	Node(int val){
 		data = val;
-		lftPtr=rghtPrt=null;
+		lftPtr=rghtPrt=NULL;
 	}
 }
 
 void preorder(Node * root){
-	if(node ==  null){
+	if(node ==  NULL){
 		return;
 	}
 	cout<<root->data<<" ";
 	preorder(root->lftPtr);
-	preorder(root->rghtPrt);
+	preorder(root->rghtPtr);
 }
